@@ -7,7 +7,7 @@ import { MdFavorite, MdOutlineFavoriteBorder } from "react-icons/md"
 import RatingStars from "../components/RatingStars"
 import AddComment from "../components/AddComment"
 import StoryItem from "../components/StoryItem"
-import Profile from "../../Profile"
+import Profile from "../pages/Profile"
 
 function OneOwner() {
   const { ownerId } = useParams()

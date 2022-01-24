@@ -1,8 +1,8 @@
 import { useContext } from "react"
 import { Col, Container, Row } from "react-bootstrap"
 
-import StoryItem from "./src/components/StoryItem"
-import StoriesContext from "./src/utils/StoriesContext"
+import StoryItem from "../components/StoryItem"
+import StoriesContext from "../utils/StoriesContext"
 
 function Profile() {
   const { profile } = useContext(StoriesContext)
